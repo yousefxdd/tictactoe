@@ -1,0 +1,72 @@
+body{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.grid{
+    
+    width: 50vh;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    border: 1px solid black;
+}
+.grid div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.grid div h1{
+    transform: scale(2.4);
+}
+.scorediscription{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.scorediscription div{
+    display: flex;
+}
+.scorediscription div h1{
+    margin-right: 10px;
+}
+
+.scorediv{
+    display: flex;
+
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vh;
+    height: 80vh;
+    background-color: lightcoral;
+    border-radius: 30px;
+}
+
+.reset{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color: lightpink;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.reset:hover{
+    background-color: lightsalmon;
+}
